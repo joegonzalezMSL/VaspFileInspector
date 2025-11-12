@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [
-  { name = "Joseph Gonzalez", email = "your_email@example.com" }
+  { name = "Joseph Gonzalez", email = "jmgonza6@usf.edu" }
 ]
 
 dependencies = [
@@ -39,6 +39,5 @@ where = ["src"]
 include = ["vaspfileinspector*"]
 
 [project.scripts]
-vfi = "vfi:main"
-
+vfi = "vaspfileinspector.cli:main"
 
