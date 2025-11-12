@@ -62,8 +62,9 @@ def get_arguments(argv):
 	return args
 
 
-def main(argv):
+def main():
 
+	argv = sys.argv[1:]
 	parameters = get_arguments( argv )
 
 	if len(argv) == 1:
@@ -130,5 +131,5 @@ def main(argv):
 		reader.write_vasp( primitive[0],patoms,parameters )
 
 
-if __name__ == "__main__": main(sys.argv[1:])
+if __name__ == "__main__": main()
 
