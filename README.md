@@ -24,7 +24,7 @@ Requires Python ≥ 3.9 and the following dependencies, all of which are handled
 ## Usage
 `vfi [-h] [-a] [-b] [-c] [-n] [-p] [-r RCUT] [-s] [-t SYMPREC] [-v] [--debug] [--version] FILE`
 
-
+```
 **Argument**                            **Description**                                                                
 | ------------------------------------| ----------------------------------------------------------------------------  |
 | `FILE`                              | Input file containing structural data to process                              |
@@ -44,6 +44,7 @@ Requires Python ≥ 3.9 and the following dependencies, all of which are handled
 | `--debug`                           | Print extensive diagnostic information (`-vvvv` equivalent)                   |
 | `--version`                         | Show version number and exit                                                  |
 | ----------------------------------- | ----------------------------------------------------------------------------- |
+```
 
 ## Examples
 ```
