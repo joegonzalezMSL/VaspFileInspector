@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vasp-file-inspector"
+version = "0.1.0"
+description = "VaspFileInspector: Analyze VASP structure and neighbor data"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Joseph Gonzalez", email = "your_email@example.com" }
+]
+
+dependencies = [
+  "numpy>=1.24",
+  "spglib>=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "black",
+  "flake8"
+]
+
+[project.urls]
+Homepage = "https://github.com/joegonzalezMSL/VaspFileInspector"
+Issues = "https://github.com/joegonzalezMSL/VaspFileInspector/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["vaspfileinspector*"]
+
+[project.scripts]
+vfi = "vfi:main"
+
