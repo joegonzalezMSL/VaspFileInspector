@@ -39,5 +39,6 @@ where = ["src"]
 include = ["vaspfileinspector*"]
 
 [project.scripts]
-vfi = "vfi"
+vfi = "vfi:main"
+
 
