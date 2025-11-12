@@ -29,14 +29,14 @@ dev = [
 Homepage = "https://github.com/joegonzalezMSL/VaspFileInspector"
 Issues = "https://github.com/joegonzalezMSL/VaspFileInspector/issues"
 
+
 [tool.setuptools]
 package-dir = {"" = "src"}
 include-package-data = true
+scripts = ["vfi.py"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
 include = ["vaspfileinspector*"]
 
-[project.scripts]
-vfi = "vfi:main"
 
