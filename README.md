@@ -1,6 +1,6 @@
 # Vasp File Inspector (vfi)
 
-**VaspFileInspector (vfi)** is a lightweight Python CLI utility for analyzing **VASP structure files** (`POSCAR` and `CONTCAR`)  
+**Vasp File Inspector (vfi)** is a lightweight Python CLI utility for analyzing **VASP structure files** (`POSCAR` and `CONTCAR`)  
 It can print and save detailed information about **atomic positions**, **bonding networks**, **unit cell geometry**, **unit cell symmetry**, and **neighbor relationships**.
 
 ---
