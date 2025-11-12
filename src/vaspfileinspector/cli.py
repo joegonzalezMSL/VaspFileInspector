@@ -53,7 +53,7 @@ def get_arguments(argv):
 	cli.add_argument("-t","--tolerance=", dest="symprec",help="precision in determining crystal symmetry in Cartesian coordinates,(default = %(default)s Å)",default=0.05,type=float)
 	cli.add_argument("-v", dest="verb",help="increase output verbosity",default=0,action="count")
 	cli.add_argument("--debug", dest="verb",help="extensive info, equivalent to \"-vvvv\"",action="store_true")
-	cli.add_argument('--version', action='version', version='%(prog)s 4.0.')
+	cli.add_argument('--version', action='version', version='%(prog)s 0.3.0.')
 	args = cli.parse_args()
 	# if args.verb>0: print "verbosity level: ", args.verb
 	# if args.verb>1: print "verbosity level: ", args.verb
